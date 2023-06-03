@@ -9,6 +9,14 @@ body {
     color: white;
     font-family: 'League Spartan', sans-serif;
 }
+
+.logo {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -37,7 +45,8 @@ nav {
 }
 
 main {
-    margin-top: 50px;
+    max-width: 1300px;
+    margin: 50px auto;
 }
 
 main p {
@@ -133,7 +142,8 @@ button:hover {
 .profile-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    gap: 30px;
+    margin: 30px auto;
 }
 
 ul {
@@ -167,6 +177,7 @@ ul {
 
 .profile-right-part {
     color: black;
-    width: 450px;
     height: 500px;
+    flex-grow: 1;
+    text-align: center;
 }

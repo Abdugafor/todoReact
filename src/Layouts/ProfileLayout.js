@@ -3,7 +3,6 @@ import { NavLink, Outlet } from "react-router-dom";
 export default function ProfileLayout() {
     return (
         <div >
-            <h1>Home</h1>
             
             <div className="profile-container">
                 <div className="profile-left-part block">

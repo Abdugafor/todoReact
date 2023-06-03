@@ -1,11 +1,11 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import  img from'../images/user.svg'
 
 export default function RootLayout() {
     return (
         <>
             <header>
-                <h1>FanLeo</h1>
+                <Link to="/" className="logo">FanLeo</Link>
 
                 <nav>
                     <NavLink to="/">Home</NavLink>
